@@ -1,6 +1,7 @@
 node default {
   file {'/root/READMEIGS':
-    ensure => file,
+    ensure  => file,
     content => 'This is a content 00:25',
+    owner   => 'tss',
   }
 }
